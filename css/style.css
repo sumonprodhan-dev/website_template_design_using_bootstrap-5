@@ -1,15 +1,4 @@
-
-
-.nav-item-hover:hover{
-    border-bottom: 2px solid #f4623a;
-    color: #f4623a !important;
-}
-.nav-item-hover:focus{
-    border-bottom: 2px solid #f4623a;
-}
-
-
-
+/* header-area background */
 .header-area {
     background: linear-gradient(rgba(99, 85, 76, 0.745), rgba(99, 85, 76, 0.745)), url("/img/bg-masthead.jpg");
     background-size: cover;
@@ -18,42 +7,58 @@
     height: 100vh;
     width: 100%;
 }
+/* header-area background end */
 
+
+/* nav-item-hover */
+.nav-item-hover:hover{
+    border-bottom: 2px solid #f4623a;
+    color: #f4623a !important;
+}
+.nav-item-hover:focus{
+    border-bottom: 2px solid #f4623a;
+}
+/* nav-item-hover end */
+
+
+/* padding */
 .padding-y{
     padding: 100px 0;
 }
 
+
+/* font-size hero area */
 .font-size {
   font-size: 60px;
   font-weight: 700;
 }
 
-@media (max-width: 992px) { /* lg থেকে ছোট */
+@media (max-width: 992px) { 
   .font-size{
     font-size: 50px;
   }
 }
 
-@media (max-width: 768px) { /* md থেকে ছোট */
+@media (max-width: 768px) {
  .font-size {
     font-size: 40px;
   }
 }
 
-@media (max-width: 576px) { /* sm থেকে ছোট */
+@media (max-width: 576px) { 
   .font-size {
     font-size: 32px;
   }
 }
+/* font-size hero area end */
 
 
-
-
+/* google-font media query */
 .google-font{
     font-family: 'Merriweather', serif;
     font-size: 18px;
 }
-@media (max-width: 1400px) { /* lg থেকে ছোট */
+@media (max-width: 1400px) { 
   .google-font{
     font-family: 'Merriweather', serif;
     font-size: 16px;
@@ -61,29 +66,29 @@
     
 }
 
-@media (max-width: 992px) { /* lg থেকে ছোট */
+@media (max-width: 992px) { 
   .google-font{
     font-family: 'Merriweather', serif;
     font-size: 16px;
   }
 }
 
-@media (max-width: 768px) { /* md থেকে ছোট */
+@media (max-width: 768px) { 
  .google-font {
     font-family: 'Merriweather', serif;
     font-size: 16px;
   }
 }
 
-@media (max-width: 576px) { /* sm থেকে ছোট */
+@media (max-width: 576px) { 
   .google-font {
     font-family: 'Merriweather', serif;
     font-size: 16px;
   }
 }
+/* google-font media query end */
 
-
-
+/* divider start */
 .divider {
     width: 3rem;
     border-width: .2rem;
@@ -93,7 +98,10 @@
     align-items: center;
     justify-content: center;
 }
+/* divider end */
 
+
+/* button start */
 .btn-primary {
     background-color: #f4623a;
     border: none;
@@ -103,16 +111,54 @@
     background-color: #e15e39;
     border: none;
 }
+/* button end */
 
+
+/* page-section start */
 .page-section{
     background-color: #f4623a;
     padding: 40px 0px;
 }
+/* page-section end */
 
 
+/* service css start */
 .service-icon{
     color: #f4623a;
 }
+/* service css end */
+
+
+/* portfolio css start */
+.img{
+  position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(242, 74, 28, 0.822);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+}
+.img:hover .overlay{
+    opacity: 1;
+}
+
+.overlay-content p{
+  color: lightgray;
+  margin-bottom: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* portfolio css end */
 
 
 /* form css start */
