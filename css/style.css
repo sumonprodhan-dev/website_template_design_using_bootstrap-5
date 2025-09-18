@@ -10,6 +10,25 @@
 /* header-area background end */
 
 
+/* nav transparent start */
+.uk-navbar-transparent .navbar-nav > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+/* nav transparent end */
+
+
+/* nav sticky start */
+.uk-navbar-sticky .navbar-nav > li > a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.uk-navbar-sticky{
+  background-color: #fff !important;
+}
+/* nav sticky end */
+
+
 /* nav-item-hover */
 .nav-item-hover:hover{
     border-bottom: 2px solid #f4623a;
@@ -167,7 +186,6 @@
     border: 1px solid #f4623a;
 }
 /* form css end */
-
 
 
 /* footer css start */
