@@ -203,6 +203,7 @@
     color: #f4623a !important;
     border-bottom: #f4623a solid 2px;
     font-size: 20px;
+    text-decoration: none;
 }
 .ftr-link::before{
     content: ">";
